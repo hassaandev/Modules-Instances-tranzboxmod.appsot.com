@@ -1,0 +1,14 @@
+application: tranzboxmod
+
+dispatch:
+# Default module serves the typical web resources and all static resources.
+- url: "*/favicon.ico"
+  module: default
+
+# Send all mobile traffic to the mobile frontend.
+- url: "tranzboxmod.appspot.com/mobile"
+  module: mobile-frontend
+
+# Send all work to the one static backend.
+- url: "tranzboxmod.appspot.com/work"
+  module: static-backend
