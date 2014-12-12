@@ -1,6 +1,6 @@
 # Modules Hello World
 
-This is a sample application using the Google App Engine [Modules API][10].
+This is a sample application created by hsn91 using the Google App Engine [Modules API][10].
 It demonstrates how to create multiple modules serving different functions
 as well as custom routing to different modules.
 
